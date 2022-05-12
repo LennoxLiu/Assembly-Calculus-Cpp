@@ -1,0 +1,8 @@
+Boost serialization
+g++  -std=c++11 -fdiagnostics-color=always -O3   \
+ project_sim.cpp \
+-o serial_sim.o \
+-fexec-charset=GBK \
+  -lboost_serialization -lboost_filesystem
+
+./serial_sim.o

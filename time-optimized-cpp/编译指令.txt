@@ -1,0 +1,6 @@
+g++  -std=c++11 -fdiagnostics-color=always -O3 \
+ project_sim.cpp \
+-o o3_sim.o \
+-fexec-charset=GBK 
+ 
+./o3_sim.o
